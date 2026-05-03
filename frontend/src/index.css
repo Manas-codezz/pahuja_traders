@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #22223B;
+  --color-secondary: #4A4E69;
+  --color-muted: #9A8C98;
+  --color-highlight: #C9ADA7;
+  --color-light: #F2E9E4;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-light text-primary font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+}
+
+/* Custom scrollbar and animations can go here */
