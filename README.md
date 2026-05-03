@@ -132,12 +132,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots of your UI here (Home, Login, Cart, Admin panel)*
-
----
-
 ## 🧠 Learning Outcomes
 
 * Full-stack application architecture
